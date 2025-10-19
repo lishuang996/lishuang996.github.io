@@ -102,3 +102,18 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: false
+  breaks: true
+  linkify: true
+  typographer: true
+  quotes: '“”‘’'
+  plugins:
+    - markdown-it-highlightjs  # 代码高亮（已安装过可保留）
+  mathjax:
+    enable: true  # 启用 MathJax
+    per_page: true  # 每页单独加载
+    cdn: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'  # 官方 CDN

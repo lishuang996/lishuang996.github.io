@@ -36,3 +36,6 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+$$
+\sum_{i=1}^n i = \frac{n(n+1)}{2}
+$$
